@@ -1,5 +1,5 @@
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: Garamond, serif;
 	
 	
 
@@ -8,7 +8,8 @@ body {
 .main {
 	display: flex;
 	flex-direction: column;
-	margin: 20px;
+	margin: -8px;
+	padding: 20px;
 }
 
 .header {
@@ -35,6 +36,8 @@ ul {
 .headerimg {
 	max-width: 19%;
 	height: auto;
+	border-radius: 8px;
+
 }
 
 
@@ -50,6 +53,8 @@ ul {
 }
 .intro-img {
 	width:400px;
+	border-radius: 8px;
+
 }
 .intro-but {
 	background: pink;
@@ -61,23 +66,68 @@ ul {
 	cursor: pointer;
 }
 .quote {
-	position: relative;
-	padding: 40px;
-}
-.quote::before {
-	content: "";
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: absolute;
+	padding: 40px;	font-style: italic;
+	font-weight: 100px;
 	background: pink;
-	margin-left: -20vw;
-	margin-right: -20vw;
-	z-index: -1;
+	border-radius: 8px;
+
 }
 
 .quote div {
 	text-align: right;
+	font-weight: 700;
 }
 
+.quote h2 {
+	font-weight: 5;
+}
+
+.by1 {
+	width: 100px;
+	height: 100px;
+
+	border: 10px solid pink;
+	background: white;
+	border-radius: 10px;	
+}
+.img-quad {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 20px 0px;
+	
+}
+.callbox {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: space-between;
+	background: #d9be66;
+	margin: 20px;
+	border-radius: 8px;
+	padding: 20px;	
+}
+.callbox-but {
+	background: white;
+        
+        padding: 10px;
+        border-radius: 8px;
+        font: inherit;
+        color: black;
+        cursor: pointer;
+
+}
+
+h4 {
+	font-size: 32px;
+}
+.footer {
+        background: pink;
+        text-align: center;
+        padding: 20px;
+        margin-top: 10px;
+	font-style: italic;
+	font-size: 28px;
+	border-radius: 8px;
+
+}
